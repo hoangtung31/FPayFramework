@@ -7,133 +7,100 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6D74A5E2277B0A7E000403CC /* FPayFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D74A5E1277B0A7E000403CC /* FPayFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D74A5EC277B0AFD000403CC /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D74A5EB277B0AFD000403CC /* Services.swift */; };
-		A2A7811ADF2C19D7644D465D /* Pods_FPayFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F144BC8EF0DEF33869A56BEA /* Pods_FPayFramework.framework */; };
+		6D0A85F9277B609300CCDEB8 /* FPaySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D0A85F8277B609300CCDEB8 /* FPaySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D0A8600277B60B900CCDEB8 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D0A85FF277B60B900CCDEB8 /* Services.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2CC7A45692C9DAE823D397F4 /* Pods-FPayFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FPayFramework.release.xcconfig"; path = "Target Support Files/Pods-FPayFramework/Pods-FPayFramework.release.xcconfig"; sourceTree = "<group>"; };
-		3DC463AAA1716ED9A8A72446 /* Pods-FPayFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FPayFramework.debug.xcconfig"; path = "Target Support Files/Pods-FPayFramework/Pods-FPayFramework.debug.xcconfig"; sourceTree = "<group>"; };
-		6D74A5DE277B0A7E000403CC /* FPayFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FPayFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D74A5E1277B0A7E000403CC /* FPayFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPayFramework.h; sourceTree = "<group>"; };
-		6D74A5EB277B0AFD000403CC /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
-		F144BC8EF0DEF33869A56BEA /* Pods_FPayFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FPayFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D0A85F5277B609300CCDEB8 /* FPaySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FPaySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D0A85F8277B609300CCDEB8 /* FPaySDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FPaySDK.h; sourceTree = "<group>"; };
+		6D0A85FF277B60B900CCDEB8 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6D74A5DB277B0A7E000403CC /* Frameworks */ = {
+		6D0A85F2277B609300CCDEB8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2A7811ADF2C19D7644D465D /* Pods_FPayFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		655BADDE4A41135889196323 /* Frameworks */ = {
+		6D0A85EB277B609300CCDEB8 = {
 			isa = PBXGroup;
 			children = (
-				F144BC8EF0DEF33869A56BEA /* Pods_FPayFramework.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		6D74A5D4277B0A7E000403CC = {
-			isa = PBXGroup;
-			children = (
-				6D74A5E0277B0A7E000403CC /* FPayFramework */,
-				6D74A5DF277B0A7E000403CC /* Products */,
-				91ABA434DCD8022DB8BB3FBA /* Pods */,
-				655BADDE4A41135889196323 /* Frameworks */,
+				6D0A85F7277B609300CCDEB8 /* FPaySDK */,
+				6D0A85F6277B609300CCDEB8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6D74A5DF277B0A7E000403CC /* Products */ = {
+		6D0A85F6277B609300CCDEB8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6D74A5DE277B0A7E000403CC /* FPayFramework.framework */,
+				6D0A85F5277B609300CCDEB8 /* FPaySDK.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6D74A5E0277B0A7E000403CC /* FPayFramework */ = {
+		6D0A85F7277B609300CCDEB8 /* FPaySDK */ = {
 			isa = PBXGroup;
 			children = (
-				6D74A5EB277B0AFD000403CC /* Services.swift */,
-				6D74A5E8277B0AD8000403CC /* Publics */,
-				6D74A5E1277B0A7E000403CC /* FPayFramework.h */,
+				6D0A85F8277B609300CCDEB8 /* FPaySDK.h */,
+				6D0A85FF277B60B900CCDEB8 /* Services.swift */,
 			);
-			path = FPayFramework;
-			sourceTree = "<group>";
-		};
-		6D74A5E8277B0AD8000403CC /* Publics */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Publics;
-			sourceTree = "<group>";
-		};
-		91ABA434DCD8022DB8BB3FBA /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3DC463AAA1716ED9A8A72446 /* Pods-FPayFramework.debug.xcconfig */,
-				2CC7A45692C9DAE823D397F4 /* Pods-FPayFramework.release.xcconfig */,
-			);
-			path = Pods;
+			path = FPaySDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		6D74A5D9277B0A7E000403CC /* Headers */ = {
+		6D0A85F0277B609300CCDEB8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D74A5E2277B0A7E000403CC /* FPayFramework.h in Headers */,
+				6D0A85F9277B609300CCDEB8 /* FPaySDK.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6D74A5DD277B0A7E000403CC /* FPayFramework */ = {
+		6D0A85F4277B609300CCDEB8 /* FPaySDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6D74A5E5277B0A7E000403CC /* Build configuration list for PBXNativeTarget "FPayFramework" */;
+			buildConfigurationList = 6D0A85FC277B609300CCDEB8 /* Build configuration list for PBXNativeTarget "FPaySDK" */;
 			buildPhases = (
-				88D2ADEEC42B06C9C9FC043B /* [CP] Check Pods Manifest.lock */,
-				6D74A5D9277B0A7E000403CC /* Headers */,
-				6D74A5DA277B0A7E000403CC /* Sources */,
-				6D74A5DB277B0A7E000403CC /* Frameworks */,
-				6D74A5DC277B0A7E000403CC /* Resources */,
+				6D0A85F0277B609300CCDEB8 /* Headers */,
+				6D0A85F1277B609300CCDEB8 /* Sources */,
+				6D0A85F2277B609300CCDEB8 /* Frameworks */,
+				6D0A85F3277B609300CCDEB8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FPayFramework;
-			productName = FPayFramework;
-			productReference = 6D74A5DE277B0A7E000403CC /* FPayFramework.framework */;
+			name = FPaySDK;
+			productName = FPaySDK;
+			productReference = 6D0A85F5277B609300CCDEB8 /* FPaySDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6D74A5D5277B0A7E000403CC /* Project object */ = {
+		6D0A85EC277B609300CCDEB8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					6D74A5DD277B0A7E000403CC = {
+					6D0A85F4277B609300CCDEB8 = {
 						CreatedOnToolsVersion = 13.1;
 						LastSwiftMigration = 1310;
 					};
 				};
 			};
-			buildConfigurationList = 6D74A5D8277B0A7E000403CC /* Build configuration list for PBXProject "FPayFramework" */;
+			buildConfigurationList = 6D0A85EF277B609300CCDEB8 /* Build configuration list for PBXProject "FPaySDK" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -141,18 +108,18 @@
 				en,
 				Base,
 			);
-			mainGroup = 6D74A5D4277B0A7E000403CC;
-			productRefGroup = 6D74A5DF277B0A7E000403CC /* Products */;
+			mainGroup = 6D0A85EB277B609300CCDEB8;
+			productRefGroup = 6D0A85F6277B609300CCDEB8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6D74A5DD277B0A7E000403CC /* FPayFramework */,
+				6D0A85F4277B609300CCDEB8 /* FPaySDK */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6D74A5DC277B0A7E000403CC /* Resources */ = {
+		6D0A85F3277B609300CCDEB8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -161,44 +128,19 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		88D2ADEEC42B06C9C9FC043B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FPayFramework-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		6D74A5DA277B0A7E000403CC /* Sources */ = {
+		6D0A85F1277B609300CCDEB8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D74A5EC277B0AFD000403CC /* Services.swift in Sources */,
+				6D0A8600277B60B900CCDEB8 /* Services.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		6D74A5E3277B0A7E000403CC /* Debug */ = {
+		6D0A85FA277B609300CCDEB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -250,7 +192,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -262,7 +204,7 @@
 			};
 			name = Debug;
 		};
-		6D74A5E4277B0A7E000403CC /* Release */ = {
+		6D0A85FB277B609300CCDEB8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -308,7 +250,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -320,9 +262,8 @@
 			};
 			name = Release;
 		};
-		6D74A5E6277B0A7E000403CC /* Debug */ = {
+		6D0A85FD277B609300CCDEB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DC463AAA1716ED9A8A72446 /* Pods-FPayFramework.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -335,25 +276,26 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = vn.foxpay.FPayFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = vn.foxpay.FPaySDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		6D74A5E7277B0A7E000403CC /* Release */ = {
+		6D0A85FE277B609300CCDEB8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CC7A45692C9DAE823D397F4 /* Pods-FPayFramework.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -366,43 +308,45 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = vn.foxpay.FPayFramework;
+				PRODUCT_BUNDLE_IDENTIFIER = vn.foxpay.FPaySDK;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6D74A5D8277B0A7E000403CC /* Build configuration list for PBXProject "FPayFramework" */ = {
+		6D0A85EF277B609300CCDEB8 /* Build configuration list for PBXProject "FPaySDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6D74A5E3277B0A7E000403CC /* Debug */,
-				6D74A5E4277B0A7E000403CC /* Release */,
+				6D0A85FA277B609300CCDEB8 /* Debug */,
+				6D0A85FB277B609300CCDEB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6D74A5E5277B0A7E000403CC /* Build configuration list for PBXNativeTarget "FPayFramework" */ = {
+		6D0A85FC277B609300CCDEB8 /* Build configuration list for PBXNativeTarget "FPaySDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6D74A5E6277B0A7E000403CC /* Debug */,
-				6D74A5E7277B0A7E000403CC /* Release */,
+				6D0A85FD277B609300CCDEB8 /* Debug */,
+				6D0A85FE277B609300CCDEB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6D74A5D5277B0A7E000403CC /* Project object */;
+	rootObject = 6D0A85EC277B609300CCDEB8 /* Project object */;
 }

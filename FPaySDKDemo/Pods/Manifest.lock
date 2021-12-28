@@ -1,0 +1,16 @@
+PODS:
+  - FPayFramework (1.0.0)
+
+DEPENDENCIES:
+  - FPayFramework (from `../FPayFramework`)
+
+EXTERNAL SOURCES:
+  FPayFramework:
+    :path: "../FPayFramework"
+
+SPEC CHECKSUMS:
+  FPayFramework: 34ad1789b230d3a9339b12d45ebe6fe1a3ba73bd
+
+PODFILE CHECKSUM: ccb5ddc4d8baf521d15c26dff87794e82c78fd57
+
+COCOAPODS: 1.11.2

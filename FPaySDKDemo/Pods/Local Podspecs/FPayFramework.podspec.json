@@ -1,0 +1,25 @@
+{
+  "name": "FPayFramework",
+  "version": "1.0.0",
+  "summary": "FPayFramework Foxpay FPT Play",
+  "description": "FPayFramework is a framework which will be integrate to FPT Play Application",
+  "homepage": "https://github.com/hoangtung31/FPayFramework",
+  "license": "MIT",
+  "authors": {
+    "Matsu": "tunghd.uet31@gmail.com"
+  },
+  "social_media_url": "https://fb.com/tunghd.uet",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "swift_versions": "5.0",
+  "ios": {
+    "vendored_frameworks": "FPayFramework.framework"
+  },
+  "source": {
+    "git": "https://github.com/hoangtung31/FPayFramework.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "FPayFramework/FPayFramework/**/*",
+  "swift_version": "5.0"
+}
